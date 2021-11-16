@@ -1,0 +1,151 @@
+#####################
+discard
+#####################
+#####################
+Logging with No level
+#####################
+Logging with Level 1
+#####################
+Logging with Level 2
+#####################
+Logging with Level 3
+#####################
+Logging with Level 4
+#####################
+Logging with Level 5
+
+#####################
+glogr
+#####################
+#####################
+Logging with No level
+#####################
+Logging with Level 1
+#####################
+Logging with Level 2
+#####################
+Logging with Level 3
+#####################
+Logging with Level 4
+#####################
+Logging with Level 5
+
+#####################
+klogr
+#####################
+#####################
+Logging with No level
+#####################
+Logging with Level 1
+#####################
+Logging with Level 2
+#####################
+Logging with Level 3
+#####################
+Logging with Level 4
+#####################
+Logging with Level 5
+
+#####################
+zapr
+#####################
+#####################
+Logging with No level
+#####################
+Logging with Level 1
+#####################
+Logging with Level 2
+#####################
+Logging with Level 3
+#####################
+Logging with Level 4
+#####################
+Logging with Level 5
+
+#####################
+stdr
+#####################
+#####################
+Logging with No level
+"level"=0 "msg"="This is Info no level" "level"="None"
+"msg"="This is Error no level" "error"=null "level"="None"
+#####################
+Logging with Level 1
+"msg"="This is Error Level 1" "error"=null "level"="None"
+#####################
+Logging with Level 2
+"msg"="This is Error Level 2" "error"=null "level"="None"
+#####################
+Logging with Level 3
+"msg"="This is Error Level 3" "error"=null "level"="None"
+#####################
+Logging with Level 4
+"msg"="This is Error Level 4" "error"=null "level"="None"
+#####################
+Logging with Level 5
+"msg"="This is Error Level 5" "error"=null "level"="None"
+
+#####################
+logrusr
+#####################
+#####################
+Logging with No level
+#####################
+Logging with Level 1
+#####################
+Logging with Level 2
+#####################
+Logging with Level 3
+#####################
+Logging with Level 4
+#####################
+Logging with Level 5
+
+#####################
+logfmtr
+#####################
+#####################
+Logging with No level
+level=0 ts=2021-11-16T21:27:34.377898285Z msg="This is Info no level" level=None
+level=0 ts=2021-11-16T21:27:34.377926387Z msg="This is Error no level" error=<nil> level=None
+#####################
+Logging with Level 1
+level=0 ts=2021-11-16T21:27:34.377984490Z msg="This is Error Level 1" error=<nil> level=None
+#####################
+Logging with Level 2
+level=0 ts=2021-11-16T21:27:34.378041994Z msg="This is Error Level 2" error=<nil> level=None
+#####################
+Logging with Level 3
+level=0 ts=2021-11-16T21:27:34.378084396Z msg="This is Error Level 3" error=<nil> level=None
+#####################
+Logging with Level 4
+level=0 ts=2021-11-16T21:27:34.378127999Z msg="This is Error Level 4" error=<nil> level=None
+#####################
+Logging with Level 5
+level=0 ts=2021-11-16T21:27:34.378181903Z msg="This is Error Level 5" error=<nil> level=None
+
+#####################
+zerologr
+#####################
+#####################
+Logging with No level
+{"v":0,"level":"None","message":"This is Info no level"}
+{"level":"None","message":"This is Error no level"}
+#####################
+Logging with Level 1
+{"v":1,"level":"None","message":"This is Info Level 1"}
+{"level":"None","message":"This is Error Level 1"}
+#####################
+Logging with Level 2
+{"v":2,"level":"None","message":"This is Info Level 2"}
+{"level":"None","message":"This is Error Level 2"}
+#####################
+Logging with Level 3
+{"level":"None","message":"This is Error Level 3"}
+#####################
+Logging with Level 4
+{"level":"None","message":"This is Error Level 4"}
+#####################
+Logging with Level 5
+{"level":"None","message":"This is Error Level 5"}
+

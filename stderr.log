@@ -1,0 +1,51 @@
+#####################
+discard
+#####################
+#####################
+glogr
+#####################
+E1116 21:27:34.374616   31111 main.go:34] "msg"="This is Error no level" "error"=null "level"="None"
+E1116 21:27:34.374948   31111 main.go:39] "msg"="This is Error Level 1" "error"=null "level"="None"
+E1116 21:27:34.374981   31111 main.go:44] "msg"="This is Error Level 2" "error"=null "level"="None"
+E1116 21:27:34.375009   31111 main.go:49] "msg"="This is Error Level 3" "error"=null "level"="None"
+E1116 21:27:34.375033   31111 main.go:54] "msg"="This is Error Level 4" "error"=null "level"="None"
+E1116 21:27:34.375093   31111 main.go:59] "msg"="This is Error Level 5" "error"=null "level"="None"
+#####################
+klogr
+#####################
+I1116 21:27:34.375358   31111 main.go:33]  "msg"="This is Info no level"  "level"="None"
+E1116 21:27:34.375415   31111 main.go:34]  "msg"="This is Error no level" "error"=null  "level"="None"
+E1116 21:27:34.375500   31111 main.go:39]  "msg"="This is Error Level 1" "error"=null  "level"="None"
+E1116 21:27:34.375582   31111 main.go:44]  "msg"="This is Error Level 2" "error"=null  "level"="None"
+E1116 21:27:34.375672   31111 main.go:49]  "msg"="This is Error Level 3" "error"=null  "level"="None"
+E1116 21:27:34.375777   31111 main.go:54]  "msg"="This is Error Level 4" "error"=null  "level"="None"
+E1116 21:27:34.375879   31111 main.go:59]  "msg"="This is Error Level 5" "error"=null  "level"="None"
+#####################
+zapr
+#####################
+{"level":"info","ts":1637098054.3762183,"caller":"logr-survey/main.go:33","msg":"This is Info no level","level":"None"}
+{"level":"error","ts":1637098054.3762946,"caller":"logr-survey/main.go:34","msg":"This is Error no level","level":"None","stacktrace":"main.printAllLevels\n\t/workspaces/logr-survey/main.go:34\nmain.main\n\t/workspaces/logr-survey/main.go:75\nruntime.main\n\t/usr/local/go/src/runtime/proc.go:255"}
+{"level":"error","ts":1637098054.37641,"caller":"logr-survey/main.go:39","msg":"This is Error Level 1","level":"None","stacktrace":"main.printAllLevels\n\t/workspaces/logr-survey/main.go:39\nmain.main\n\t/workspaces/logr-survey/main.go:75\nruntime.main\n\t/usr/local/go/src/runtime/proc.go:255"}
+{"level":"error","ts":1637098054.3765202,"caller":"logr-survey/main.go:44","msg":"This is Error Level 2","level":"None","stacktrace":"main.printAllLevels\n\t/workspaces/logr-survey/main.go:44\nmain.main\n\t/workspaces/logr-survey/main.go:75\nruntime.main\n\t/usr/local/go/src/runtime/proc.go:255"}
+{"level":"error","ts":1637098054.3765934,"caller":"logr-survey/main.go:49","msg":"This is Error Level 3","level":"None","stacktrace":"main.printAllLevels\n\t/workspaces/logr-survey/main.go:49\nmain.main\n\t/workspaces/logr-survey/main.go:75\nruntime.main\n\t/usr/local/go/src/runtime/proc.go:255"}
+{"level":"error","ts":1637098054.3766465,"caller":"logr-survey/main.go:54","msg":"This is Error Level 4","level":"None","stacktrace":"main.printAllLevels\n\t/workspaces/logr-survey/main.go:54\nmain.main\n\t/workspaces/logr-survey/main.go:75\nruntime.main\n\t/usr/local/go/src/runtime/proc.go:255"}
+{"level":"error","ts":1637098054.3767047,"caller":"logr-survey/main.go:59","msg":"This is Error Level 5","level":"None","stacktrace":"main.printAllLevels\n\t/workspaces/logr-survey/main.go:59\nmain.main\n\t/workspaces/logr-survey/main.go:75\nruntime.main\n\t/usr/local/go/src/runtime/proc.go:255"}
+#####################
+stdr
+#####################
+#####################
+logrusr
+#####################
+time="2021-11-16T21:27:34Z" level=info msg="This is Info no level" fields.level=None
+time="2021-11-16T21:27:34Z" level=error msg="This is Error no level" error="<nil>" fields.level=None
+time="2021-11-16T21:27:34Z" level=error msg="This is Error Level 1" error="<nil>" fields.level=None
+time="2021-11-16T21:27:34Z" level=error msg="This is Error Level 2" error="<nil>" fields.level=None
+time="2021-11-16T21:27:34Z" level=error msg="This is Error Level 3" error="<nil>" fields.level=None
+time="2021-11-16T21:27:34Z" level=error msg="This is Error Level 4" error="<nil>" fields.level=None
+time="2021-11-16T21:27:34Z" level=error msg="This is Error Level 5" error="<nil>" fields.level=None
+#####################
+logfmtr
+#####################
+#####################
+zerologr
+#####################
